@@ -11,6 +11,8 @@ function exercise07() {
   ];
 
   // Complete the code of the function
+
+  localStorage.setItem("ex-07-users", JSON.stringify(users));
 }
 
 export default exercise07;
